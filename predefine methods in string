@@ -1,0 +1,28 @@
+toLowerCase:- convert string to lower case.
+
+class stringexample
+{
+  public static void main(String args[])
+  {
+    string str1 = "Hello we are LEArning JAVA";
+    System.out.println(str1);
+    System.out.println("\n\n-------\n\n");
+    String res = str1.toLowercase();
+    System.out.println(res);
+  }
+}
+
+
+toupperCase:- convert string to uper case.
+
+class stringexample
+{
+  public static void main(String args[])
+  {
+    string str1 = "Hello we are LEArning JAVA";
+    System.out.println(str1);
+    System.out.println("\n\n-------\n\n");
+    String res = str1.toUppercase();
+    System.out.println(res);
+  }
+}
